@@ -3,25 +3,82 @@ body {
     background-color: #F0F0F0;
 }
 
-.red {
+.header_background {
+    height: 90px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+.icon_large {
+    font-family: 'Anton', sans-serif;
     color: white;
     height: 105px;
     width: 105px;
-    background-color: #e6563b;
+    line-height: 95px;
     border: 5px solid white;
     border-radius: 57.5px;
     text-align: center;
 }
 
-h1 {
+.icon_small {
+    font-family: 'Anton', sans-serif;
+    color: black;
+    height: 18px;
+    width: 18px;
+    line-height: 2px;
+    border-radius: 60px;
+    text-align: center;
+    margin:8px 8px;
+}
 
+.design {
+    background-color: #e6563b;
+}
+
+.develop {
+    background-color: #eb9d3a;
+}
+
+.support {
+    background-color: #7cb06c;
+}
+
+.host {
+    background-color: #00aba9;
+}
+
+
+h1 {
+    height: 100px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+h2  {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+img.work_image {
+    width: calc(100% - 75px);
+    border: 10px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+.link_img {
+    width: calc(50% - 50px);
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 576px) {
 
     .codeuplogo {
-        height: 105px;
-        width: 105px;
+        height: 120px;
+        width: 120px;
+        border-radius: 500px;
     }
 
     .header_title {
@@ -35,6 +92,8 @@ h1 {
         padding: 0;
         display: inline-block;
     }
+
+
 
     ul {
         text-align: center;
@@ -54,6 +113,15 @@ h1 {
     }
 
     header {
+        text-align: center;
+    }
+    
+    main {
+        width: 100%;
+    }
+
+    .small_screen {
+        width: 100%;
         text-align: center;
     }
 
