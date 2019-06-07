@@ -1,0 +1,60 @@
+
+body {
+    background-color: #F0F0F0;
+}
+
+.red {
+    color: white;
+    height: 105px;
+    width: 105px;
+    background-color: #e6563b;
+    border: 5px solid white;
+    border-radius: 57.5px;
+    text-align: center;
+}
+
+h1 {
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .codeuplogo {
+        height: 105px;
+        width: 105px;
+    }
+
+    .header_title {
+        font-family: 'Abel', sans-serif;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbartop {
+        width: 100%;
+        padding: 0;
+        display: inline-block;
+    }
+
+    ul {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        padding: 0;
+    }
+
+    li {
+        float: left;
+        display: inline-block;
+        list-style: none;
+        width: calc(100% -20px);
+        text-align:center;
+        margin:10px 0;
+        padding:20px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+}
