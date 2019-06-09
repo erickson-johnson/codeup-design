@@ -93,6 +93,10 @@ img.work_image {
         display: inline-block;
     }
 
+    div.row {
+        justify-content: center;
+        align-content: conter;
+    }
 
 
     ul {
