@@ -1,9 +1,17 @@
  * {
      margin: 0;
+     box-sizing: border-box;
  }
 
 body {
     background-color: #F0F0F0;
+}
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
 }
 
 .banner {
@@ -20,7 +28,6 @@ body {
 }
 
 .icon_large {
-    font-family: 'Anton', sans-serif;
     color: white;
     height: 6.5em;
     width: 6.5em;
@@ -38,10 +45,11 @@ body {
     color: black;
     height: 18px;
     width: 18px;
-    line-height: 2px;
+    line-height: 20px;
     border-radius: 60px;
     text-align: center;
-    margin:8px 8px;
+    /*margin:8px 8px;*/
+    font-size: 8px;
 }
 
 .design {
@@ -65,36 +73,36 @@ body {
      width: 100%;
      text-align: center;
      margin: 0 auto;
-     font-size: 12vw;
+     /*font-size: ;*/
  }
 
 
-h1 {
-    font-family: 'Anton', sans-serif;
-    font-size: 13vw;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 70px;
-}
+/*h1 {*/
+/*    font-family: 'Anton', sans-serif;*/
+/*    font-size: 13vw;*/
+/*    margin: 0 auto;*/
+/*    text-align: center;*/
+/*    margin-top: 70px;*/
+/*}*/
 
-h2  {
-    font-family: 'Anton', sans-serif;
-    font-size: 7.9vw;
-    text-align: center;
-    margin: 50px;
-}
+/*h2  {*/
+/*    font-family: 'Anton', sans-serif;*/
+/*    font-size: 7.9vw;*/
+/*    text-align: center;*/
+/*    margin: 50px;*/
+/*}*/
 
 .navtabs {
-     font-family: 'Abel', sans-serif;
-    /*font-size: 4vw;*/
-     list-style: none;
-     margin: 10px auto;
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    list-style: none;
+    /*margin: 10px auto;*/
  }
 
  .paragraph_2 {
      width: 100%;
      text-align: center;
-     margin-top: 100px;
+     /*margin-top: 100px;*/
  }
 
 li {
@@ -102,14 +110,21 @@ li {
 }
 
 ul {
+
     text-align: center;
     list-style-type: none;
+    padding: 0;
 }
 
 img.work_image {
-    width: calc(100% - 75px);
+    width: 100%;
     border: 10px solid #e6e6e6;
     border-radius: 5px;
+}
+
+.featured {
+    margin: 0;
+    font-size: 10px;
 }
 
 .link_img {
@@ -126,6 +141,7 @@ img.work_image {
      height: 105px;
      width: 105px;
      margin: 0 auto;
+     text-align: center;
      /*border-radius: 500px;*/
  }
 
@@ -159,3 +175,77 @@ img.work_image {
         width: 100%;
     }
  */
+
+ @media screen and (max-width: 575px) {
+     .codeup {
+         text-align: center;
+     }
+     .services {
+         margin-left: 2em;
+     }
+     .blog {
+         margin-left: 2em;
+     }
+     .project {
+         font-size: 16px;
+     }
+     .dot-circle {
+         display: inline-block;
+         height: 18px;
+         width: 18px;
+         line-height: 18px;
+         text-align: center;
+         padding: 0;
+         border-radius: 50%;
+         font-size: 12px;
+     }
+     .bubbles {
+         margin: 0 auto;
+         width: 300px;
+     }
+ }
+ /*sm screen*/
+ @media screen and (min-width: 576px) {
+     .codeup {
+         text-align: center;
+     }
+     .services {
+         margin-left: 125px;
+     }
+     .blog {
+         margin-right: 125px;
+     }
+ }
+ /*med screen*/
+ @media screen and (min-width:768px){
+     .codeup {
+         text-align: left;
+     }
+     .blog, .services {
+         margin: 0;
+     }
+ }
+ /*lg screen*/
+ @media screen and (min-width:992px) {
+     .container {
+         width: 65%;
+     }
+     .codeup {
+         text-align: left;
+     }
+     .logo {
+         margin: 0 auto;
+     }
+     .blog, .services {
+         margin: 0;
+     }
+ }
+ /*XL screen*/
+ @media screen and (min-width:1200px){
+     .codeup {
+         text-align: left;
+     }
+     .blog, .services {
+         margin: 0;
+     }
+ }
